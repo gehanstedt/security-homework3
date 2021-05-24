@@ -1,0 +1,20 @@
+The primary dealer working at the times where losses occurred.
+Answer:
+Billy Jones was the only dealer working when the losses occurred.
+
+How many times the dealer worked when major losses occurred.
+Based on the analysis done for the Player Analysis, all losses were major - at least $65,348 for each hour
+a loss occurred.  There were 13 occurrences where the dealer worked - all the same Billy Jones dealer.
+
+Commands:
+wc -l Dealers_working_during_losses 
+13 Dealers_working_during_losses
+
+uniq -c Dealers_working_during_losses 
+     13 Billy Jones
+
+
+
+
+
+
